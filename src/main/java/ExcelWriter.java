@@ -26,7 +26,7 @@ public class ExcelWriter {
         employees.add(new Employee("Kabir Singh", "kabir@smallcompany.com",
                 dateOfBirth.getTime(), 1300000.0));
 
-        dateOfBirth.set(1984, 11, 09);
+        dateOfBirth.set(1984, 11, 9);
         employees.add(new Employee("Rick Thomas", "rick@smallcompany.com",
                 dateOfBirth.getTime(), 1100000.0));
 
