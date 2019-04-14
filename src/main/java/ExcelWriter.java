@@ -22,17 +22,17 @@ public class ExcelWriter {
 
     static {
         Calendar dateOfBirth = Calendar.getInstance();
-        dateOfBirth.set(1992, 7, 21);
-        employees.add(new Employee("Rajeev Singh", "rajeev@example.com",
-                dateOfBirth.getTime(), 1200000.0));
+        dateOfBirth.set(1990, 2, 22);
+        employees.add(new Employee("Kabir Singh", "kabir@smallcompany.com",
+                dateOfBirth.getTime(), 1300000.0));
 
-        dateOfBirth.set(1965, 10, 15);
-        employees.add(new Employee("Thomas cook", "thomas@example.com",
-                dateOfBirth.getTime(), 1500000.0));
+        dateOfBirth.set(1984, 11, 09);
+        employees.add(new Employee("Rick Thomas", "rick@smallcompany.com",
+                dateOfBirth.getTime(), 1100000.0));
 
-        dateOfBirth.set(1987, 4, 18);
-        employees.add(new Employee("Steve Maiden", "steve@example.com",
-                dateOfBirth.getTime(), 1800000.0));
+        dateOfBirth.set(1986, 2, 12);
+        employees.add(new Employee("Jack Dawson", "jack@smallcompany.com",
+                dateOfBirth.getTime(), 1900000.0));
     }
 
     public static void main(String[] args) throws IOException, InvalidFormatException {
